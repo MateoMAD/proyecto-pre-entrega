@@ -80,7 +80,7 @@ width: 63%;
 }
 @media only screen and (max-width:300px){
     .supercontenedor{
-        background: url(seis-libros-arriba.jpg) ;
+        background: url(imagenes/seis-libros-arriba.jpg) ;
         background-size:100vh;  
         width: 50vh;    
     }
