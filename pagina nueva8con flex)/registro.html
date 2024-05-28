@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="supercontenedor">
+    
+ <header>
+ <span class="logo">freebooks</span> <!--agregar animacion-->
+ </header>
+<main>
+<section class="conteiner">
+
+     <form class="formulario" id="form">
+        <div class="titulo-registro-con">
+            <h1 class="titulo-registro" >registro</h1>
+        </div>
+        <div>
+            <input class="casilleros" id="nombre" type="text" placeholder="nombre">
+        </div>
+        <div>
+            <input class="casilleros" id="apellido" type="text" placeholder="apellido">
+        </div>
+        <div>
+            <input class="casilleros" id="email" type="email" placeholder="email">
+        </div>
+        <div>
+            <input class="casilleros" id="password" type="password" placeholder="contraseña">
+        </div>
+        <div>
+            <input class="casilleros" type="date">
+        </div>
+        <div >
+            <select class="casilleros" name="pais">
+                <option>pais</option>
+                <option value="">argentina</option>
+                <option value="">brasil</option>
+                <option value="">ecuador</option>
+                <option value="">chile</option>
+                <option value="">paraguay</option>
+                <option value="">uruguay</option>
+                <option value="">bolivia</option>
+                <option value="">venezuela</option>
+                <option value="">colombia</option>
+                <option value="">peru</option>
+            </select>
+        </div>
+        <div class="terminos">
+            <input class="boton" type="checkbox">
+            <label for="terminos">acepto terminos y condiciones</label>
+        </div>
+        <div>
+            <input class="boton-registro" id="submit"  type="submit" value="registrarse">
+        </div>
+        <div class="enlace-contenedor">
+            <a class="enlace" href="#">necesitas ayuda?</a>
+        </div>
+     </form>
+</section>
+</main>   
+<script src="scrip.js"></script>
+</body>
+</html>

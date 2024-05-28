@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.supercontenedor{
+    background-image: url(/imagenes/seis-libros-arriba.jpg);
+    background-size: 100vw;
+}
+.logo{
+    font-size: 2em;
+    font-family: "Work Sans", sans-serif ;
+    margin: 1em;
+  
+}
+.conteiner{
+    display: flex;
+    
+    border-radius: 15px;
+   justify-content: center;
+   box-sizing: border-box;
+   margin: auto;
+width: 90vw;
+height: 80vh;
+background-color: #343a40;
+}
+
+.titulo-registro
+{
+    margin-top: 2em;
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+    font-family: "Work Sans", sans-serif ;
+    font-weight: 600;
+}
+.formulario{
+width: 63%;
+}
+.casilleros{
+    font-family: "Work Sans", sans-serif ;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0 0 0 1em;
+    font-size: 1.2rem;
+    border: solid transparent;
+    border-bottom:2px solid rgb(202, 236, 5);
+    background-color: #343a40;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+.terminos{
+    color: white;
+    font-family: "Work Sans", sans-serif; 
+}
+.boton{
+    
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0.8em ;
+}
+.boton-registro{
+    margin: 0.8em;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color:   rgb(202, 236, 5);
+    width: 100%;
+    padding: 1em;
+    font-family: "Work Sans", sans-serif ;
+    font-weight: 700;
+}
+.enlace{
+    color: #000;
+    text-decoration: none;
+}
+.enlace-contenedor{
+    font-family: "Work Sans", sans-serif ;
+    margin-top: 0.4em;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:300px){
+    .supercontenedor{
+        background: url(seis-libros-arriba.jpg) ;
+        background-size:100vh;  
+        width: 50vh;    
+    }
+    
+}
+@media only screen and (min-width:300px){
+
+    header{
+    
+        margin-top: 1.5em;         
+        margin-bottom: 2.5em;
+    }
+}
+
+@media only screen and (min-width:1000px) { 
+    .conteiner{
+        width: 80vw;
+        
+    }
+ 
+}
+
+@media only screen and (min-width:1300px){
+    .conteiner{
+        width: 40vw;
+    }
+
+}
+/*
+@media only screen and (min-width:300px){
+
+    header{
+    
+        margin-top: 1.5em;         
+        margin-bottom: 2.5em;
+    }
+}
+
+*/
